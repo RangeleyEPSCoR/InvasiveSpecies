@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:weightSum="1.0">
+	<Button android:layout_width="fill_parent" android:id="@+id/btn_start" android:layout_weight="1" android:text="Start" android:textSize="30dip" android:layout_height="80dp" android:layout_marginBottom="20dp" android:layout_marginTop="40dp" android:layout_marginRight="15dp" android:layout_marginLeft="15dp"></Button>
+	<Button android:layout_width="fill_parent" android:id="@+id/btn_instructions" android:layout_weight="1" android:textSize="30dip" android:text="Instructions" android:layout_height="80dp" android:layout_marginBottom="20dp" android:layout_marginTop="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"></Button>
+	<Button android:layout_width="fill_parent" android:id="@+id/btn_options" android:layout_weight="1" android:textSize="30dip" android:text="Options" android:layout_height="80dp" android:layout_marginBottom="20dp" android:layout_marginTop="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"></Button>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Answer each question using the given pictures for reference.  Each picture presented in the gallery can become bigger by clicking on it." android:textSize="25dip" android:textStyle="bold" android:typeface="sans"/>
+	<Button android:layout_width="fill_parent" android:id="@+id/btn_ins_start" android:layout_weight="1" android:layout_marginTop="20dip" android:layout_height="80dip" android:layout_marginBottom="20dip" android:textSize="30dip" android:text="Start" android:layout_alignParentBottom="true"/>
+</RelativeLayout>
